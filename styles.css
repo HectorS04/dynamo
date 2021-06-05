@@ -137,8 +137,9 @@ ul {
    align-items: center;
    height: 100vh;
    width: 75vw;
-   top: 100%;
+   top: 0;
    right: 0;
+   z-index: -1;
    text-align: center;
    transform: translateX(150%);
 }
@@ -379,7 +380,7 @@ ul {
 @media screen and (min-width: 576px) {
    /*** Header ***/
    .navbar {
-      background-color: #bb050b;
+      /* background-color: #bb050b; */
    }
 
    .menu {
