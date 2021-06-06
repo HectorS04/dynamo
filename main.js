@@ -1,4 +1,5 @@
 
+let menuStatus = true;
 let menu = document.getElementById("menu");
 let btnmenu = document.getElementById("btn-menu");
 let iconmenu = document.getElementById("icon-menu");
