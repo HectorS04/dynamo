@@ -367,7 +367,7 @@ ul {
    width: 100%;
    align-items: center;
    /* justify-content: center; */
-/*    background-image: url("./img/slide1.jpg") ; */
+   background-image: url("./img/slide1.jpg") ;
    background-position: left top;
    background-repeat: no-repeat;
    background-size: cover;
