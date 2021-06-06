@@ -28,7 +28,7 @@
 }
 h1 {
    margin: 0 !important;
-   font-size: var(--fontSize-h1) !important;
+   /* font-size: var(--fontSize-h1) !important; */
 }
 h2 {
    font-size: var(--fontSize-h2);
@@ -46,7 +46,7 @@ h1,h2,h3,h4,h5{
    margin: 0;
 }
 main {
-   height: 100vh;
+   min-height: 100vh;
    /* padding: 155px; */
 }
 p {
@@ -173,6 +173,7 @@ ul {
 .menu>ul {
    flex-direction: column;
    margin: 0;
+   padding: 0;
 }
 .menu>ul>li.nav-item {
    margin: 3vh 5vw;
@@ -201,7 +202,7 @@ ul {
 
 
 /*** Slider ***/
-.carousel-content {
+/* .carousel-content {
    height: 100vh;
    width: 100%;
    align-items: center;
@@ -211,11 +212,9 @@ ul {
    background-size: cover;
    background-attachment: fixed;
    
-   /* object-fit: cover;
-   object-position: top; */
-}
+} */
 
-.carousel-content:before{ 
+/* .carousel-content:before{ 
    content: '';
    background-color: rgba(0, 0, 0, .6);
    position: absolute;
@@ -223,73 +222,66 @@ ul {
    bottom: 0;
    right: 0;
    left: 0;
-   
-}
 
-.carousel-control {
+} */
+
+/* .carousel-control {
    width: 100%;
    position: absolute;
-   display: flex;
    justify-content: space-between;
    align-items: center;
-}
+} */
 
-.carousel-control>i{
-   color: rgb(255, 255, 255);
+/* .carousel-control>i{
+   color: var(--colorWithe);
    font-size: 2.5vw;
-   /* background-color: #ce3237; */
    padding: 25vh 1vw;
-}
+   z-index: 50;
+} */
 
-.carousel-control>i:hover{
+/* .carousel-control>i:hover{
    color: rgb(212, 211, 211);
+   background-color: #fdfdfd05;
    cursor: pointer;
-}
+} */
 
-.carousel-indicators {
+/* .carousel-indicators {
    width: 100%;
    min-height: 100vh;
    position: absolute;
-   display: flex;
    justify-content: center;
    align-items: flex-end;
-}
+} */
 
-.carousel-indicators>i {
-   color: #fff;
+/* .carousel-indicators>i {
+   color: var(--colorWithe);
    font-size: .8vw;
    margin: 0 .6vw 1.5vh .6vw ;
+} */
 
-}
+/* .carousel-indicators>i.active{
+   color: var(--colorRed);   
+} */
 
-.carousel-indicators>i.active{
-   color: #CF1C21;   
-}
-
-.carousel-info {
+/* .carousel-info {
    padding: 0 2vw;
    position: absolute;
-   color: #fff;
+   color: var(--colorWithe);
    margin: 0 5vw;
-}
+} */
 
-.carousel-title {
+/* .carousel-title {
    font-size: 10vh;
    margin-bottom: 0;
-}
+} */
 
-.dynamo {
-   color: #CF1C21;
-}
-
-.carousel-text {
+/* .carousel-text {
    margin-bottom: 5vh;
    width: 35%;
    font-size: 2.5vh;
    font-weight: 400;
    text-align: justify;
-}
-
+} */
 
 
 /*** Footer ***/
@@ -369,6 +361,95 @@ ul {
 
    /*** Footer ***/
    
+   /*** Slider ***/
+.carousel-content {
+   height: 100vh;
+   width: 100%;
+   align-items: center;
+   /* justify-content: center; */
+   background-image: url("./img/slide1.jpg") ;
+   background-position: left top;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background-attachment: fixed; */
+   
+   /* object-fit: cover;
+   object-position: top; */
+}
+
+.carousel-content:before{ 
+   content: '';
+   background-color: rgba(0, 0, 0, .6);
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+}
+
+.carousel-control {
+   width: 100%;
+   position: absolute;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.carousel-control>i{
+   color: var(--colorWithe);
+   font-size: 1.2rem;
+   /* background-color: #ce3237; */
+   padding: 25vh 3vw;
+   z-index: 50;
+}
+
+.carousel-control>i:hover{
+   color: rgb(212, 211, 211);
+   background-color: #fdfdfd05;
+   cursor: pointer;
+}
+
+.carousel-indicators {
+   width: 100%;
+   min-height: 100vh;
+   position: absolute;
+   /* display: flex; */
+   justify-content: center;
+   align-items: flex-end;
+}
+
+.carousel-indicators>i {
+   color: var(--colorWithe);
+   font-size: .5rem;
+   margin: 0 1.5vw 2vh 1.5vw ;
+
+}
+
+.carousel-indicators>i.active {
+   color: var(--colorRed);   
+}
+
+.carousel-info {
+   padding: 0 2vw;
+   position: absolute;
+   color: var(--colorWithe);
+   margin: 0 8vw;
+}
+
+.carousel-title {
+   font-size: 2.5rem;
+}
+
+.carousel-text {
+   margin-bottom: 5vh;
+   width: 85%;
+   font-size: .8rem;
+   font-weight: 300;
+   text-align: justify;
+}
+
+.btn-p {
+   font-size: small;
+}
 }
 
 @media screen and (min-width: 576px) {
