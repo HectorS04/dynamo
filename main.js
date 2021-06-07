@@ -4,11 +4,11 @@ let menu = document.getElementById("menu");
 let btnmenu = document.getElementById("btn-menu");
 let iconmenu = document.getElementById("icon-menu");
 let shadow = document.getElementById("shadow");
+let navbar =document.getElementById("navbar");
+btnmenu.addEventListener("click",shmenu);
+shadow.addEventListener("click",shmenu);
 
-btnmenu.addEventListener("click",algo);
-shadow.addEventListener("click",algo)
-
-function algo(){
+function shmenu(){
    if(menuStatus){
       menuStatus = false;
       menu.classList.remove('menu-noactive');
@@ -27,3 +27,17 @@ function algo(){
    }
    // console.log(x);
 }
+
+window.onscroll = function() {
+   let y = window.scrollY;
+   console.log(y);
+   if(y >= 150) {
+      navbar.style.background = "#0e0d0df9";
+   }else {
+      navbar.style.background = "#0e0d0d36";
+      
+   }
+ };
+
+
+// alert("po");
