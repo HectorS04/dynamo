@@ -26,6 +26,9 @@
 
    --fontSize-list: 1.1rem;
 }
+html {
+   scroll-behavior: smooth;
+}
 h1 {
    margin: 0 !important;
 }
@@ -118,13 +121,15 @@ ul {
 
 /*** Header ***/
 .navbar {
-   background-color: var(--colorBlack01);
+   /* background-color: var(--colorBlack01); */
    background-color: #0e0d0d36;
    color: var(--colorWithe);
    padding: 2vh 0;
    position: fixed;
    z-index: 900;
    width: 100%;
+   transition-property: background-color;
+   transition-duration: .5s;
 }
 .content {
    padding: 0 5vw;
