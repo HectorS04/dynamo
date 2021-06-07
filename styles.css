@@ -207,7 +207,7 @@ ul {
    height: 100vh;
    width: 100%;
    align-items: center;
-/*    background-image: url("./img/slide1.jpg") ; */
+   background-image: url("./img/slide1.jpg") ;
    background-position: left top;
    background-attachment: fixed;
    background-repeat: no-repeat;
@@ -258,7 +258,7 @@ ul {
 .carousel-indicators>i {
    color: var(--colorWithe);
    font-size: .6rem;
-   padding: 0 1.5vw ;
+   padding: 0 1.8vw ;
 }
 
 .carousel-indicators>i.active {
@@ -276,7 +276,7 @@ ul {
 }
 
 .carousel-text {
-   margin-bottom: 5vh;
+   padding-bottom: 3vh;
    width: 85%;
    font-size: 1.2rem;
    font-weight: 400;
@@ -286,6 +286,8 @@ ul {
 .btn-p {
    font-size: medium;
 }
+
+
 
 
 
@@ -365,6 +367,113 @@ ul {
    
    /*** Slider ***/
     
+   /*** Just Enjoy ***/
+
+   .just__enjoy {
+      min-height: 100vh;    
+      padding: 0 8vw;
+      /* display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column; */
+      background-color: var(--colorBlack02);
+      color: var(--colorWithe);
+   }
+
+   .just-header {
+      text-align: center;
+      padding: 4vh 0;
+   }
+
+   .just-title {
+      margin: 0 0 1vh;
+      padding: .7vh 1.5vw;
+      font-size: 2.5vw;
+      display: inline-block;
+      /* width: 15%; */
+      border-bottom: .2vw solid var(--colorRed);
+   }
+
+   .just-subtitle {
+      font-size: 1.3vw;
+   }
+
+   .just-body {
+      /* display: flex; */
+      /* height: 70vh; */
+      /* width: 100%; */
+      /* justify-content: center; */
+      /* align-items: center; */
+      /* height: 50vh; */
+      /* justify-content: center;
+      align-items: center; */
+   }
+
+   .just-img {
+      flex-grow: 1;
+
+      /* align-self: center;
+      justify-self: center; */
+   }
+   .blockcolor {
+      /* background-image: url(); */
+      background-color: var(--colorRed);
+      height: 45vh;
+      width: 23vw;
+      border-radius: 1vh 0 0 0;
+      position: absolute;
+   }
+
+   .blockimg > img{
+      height: 60vh;
+      width: 32vw;
+      object-fit: cover;
+      object-position: center;
+      z-index: 100;
+      position: relative;
+      top: 1vh;
+      left: .5vw;
+      border-radius: 1vh 1vh 5vw 1vh;
+      box-shadow: .1vw .1vh .8vh rgba(255, 255, 255, 0.2);
+      /* position: absolute; */
+   }
+
+   .just-info {
+      flex-grow: .5;
+   }
+
+   .info-title {
+      font-size: 1.5vw;
+      
+      margin: 0;
+   }
+
+   .info-title>span{
+      /* color: #CF1C21; */
+   }
+
+   .info-subtitle {
+      font-size: 1.2vw;
+      font-weight: 700;
+   }
+   ul.info-compatible {
+      list-style: none;
+      margin: 1vh 0 5vh 0;
+   }
+
+   ul.info-compatible>li {
+      /* color: var(--colorWithe); */
+      display: inline-block;
+      padding: .5vh .5vw;
+      margin: 1vh .2vw;
+      font-size: 1.3vw;
+   }
+
+   ul.info-compatible>i {
+      color: var(--colorRed);
+      font-size: .7vw;
+      
+   }  
 }
 
 @media screen and (min-width: 576px) {
@@ -403,7 +512,7 @@ ul {
    }
 
    .carousel-text {
-      margin-bottom: 2rem;
+      padding-bottom: 2rem;
       width: 90%;
       font-size: 1.3rem;
    }
@@ -489,14 +598,11 @@ ul {
       font-size: 1.9rem;
       padding: 25vh 2vw;
    }
-   .carousel-indicators {
-      padding: 1rem;
-   }
    .carousel-title {
       font-size: 4rem;
    }
    .carousel-text {
-      margin-bottom: 2rem;
+      /* padding-bottom: 2rem; */
       width: 78%;
       font-size: 1.3rem;
    }
@@ -553,7 +659,7 @@ ul {
    /*** Slider ***/
    .carousel-indicators>i {
       color: var(--colorWithe);
-      margin: 0 1vw ;
+      padding: 0 1.3vw ;
    }
 
    .carousel-title {
@@ -561,7 +667,7 @@ ul {
    }
 
    .carousel-text {
-      margin-bottom: 2.5rem;
+      padding-bottom: 2rem;
       width: 70%;
    }
 
@@ -598,14 +704,14 @@ ul {
    .carousel-indicators>i {
       color: var(--colorWithe);
       font-size: .8rem;
-      margin: 0 1vw ;
+      padding: 0 1vw ;
    }
    .carousel-title {
       font-size: 5rem;
    }
    .carousel-text {
-      margin-top: 2rem;
-      margin-bottom: 2.5rem;
+      padding-top: 1rem;
+      /* padding-bottom: 2.3rem; */
       width: 50%;
    }
 
