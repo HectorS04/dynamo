@@ -440,17 +440,51 @@ ul.info-compatible__list>li>i {
    /*** Slider ***/
     
    /*** Just Enjoy ***/
-    
+   
+   /*** How Install ***/
+
+.how__install {
+   min-height: 100vh;
+   background-color: #1A1919;
+   color: #fff;
+   padding-top: 5vh;
+   /* padding: 0 8vw; */
+}
+.how-title__content {
+   height: 20vh;
+   width: 30vw;
+   margin-bottom: 5vh;
+   /* position: absolute; */
+   border-radius: 0 1vw 1vw 0;
+   background-color: #CF1C21;
+}
+
+.how-title {
+   margin: 0;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   padding: 0 3vw;
+   font-size: xx-large;
+}
+
+.how-video {
+   display: flex;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+}
+
+.how-video>iframe {
+   height: 65vh;
+   width: 55vw;
+   border-radius: .5vw;
+}
 }
 
 @media screen and (min-width: 576px) {
    /*** Header ***/
-   .navbar {
-      /* background-color: #bb050b; */
-      /* background-color: #0e0d0d36; */
-
-   }
-
    .menu {
       width: 60vw;
    }
@@ -576,7 +610,6 @@ ul.info-compatible__list>li>i {
       display: none;
    }
 
-   
    .footer-title {
       margin-top: 0;
    }
@@ -667,8 +700,6 @@ ul.info-compatible__list>li>i {
       width: 65%;
       font-size: 1.2rem;
    }
-
-   
    
    .blockcolor {
       height: 15.5rem;
@@ -680,9 +711,7 @@ ul.info-compatible__list>li>i {
       width: 35vw;
       top: .45rem;
       left: .45rem;
-   }
-
-   
+   }   
    
    .just-info {
       padding-left: 1.8rem;
@@ -692,7 +721,6 @@ ul.info-compatible__list>li>i {
       font-size: 1.15rem;
       margin-bottom: 1rem;
    }
-
 
    ul.info-compatible__list>li {
       margin: 1.8vh 3vw;
