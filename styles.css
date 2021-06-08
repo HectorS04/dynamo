@@ -480,6 +480,112 @@ ul.info-compatible__list>li>i {
    
    /*** How Install ***/
    
+
+   /*** Subscrition Services ***/
+
+   .subscription__service {
+      min-height: 100vh;
+      width: 100%;
+      background-color: var(--colorBlack02);
+      background: fixed  url("./img/img3.jpg") center top/cover no-repeat ;
+      color: var(--colorWithe);
+      /* background-image: url("./img/img3.jpg"); */
+      /* background-position: center top; */
+      /* background-repeat: no-repeat; */
+      /* background-size: cover; */
+      /* background-attachment: fixed; */
+      /* -webkit-filter: contrast(100%);
+      filter: contrast(75%); */ 
+   }
+
+   .service-content {
+      min-height: 100vh;
+      width: 100%;
+      background-color: rgba(0, 0, 0, .5);
+      z-index: 300;
+   }
+
+   .content-header {
+
+   }
+   
+   .subscription-title {
+      margin: 0;
+      color: var(--colorWithe);
+      margin: 0 0 1vh;
+      padding: .7vh 1.5vw;
+      font-size: 2.5vw;
+      display: inline-block;
+      text-align: center;
+      /* width: 15%; */
+      border-bottom: .2vw solid var(--colorRed);
+   }
+   
+   .subscription-subtitle {
+      font-size: 1.4vw;
+      font-weight: 900;
+      text-align: center;
+   }
+   
+   .subscription-description {
+      font-size: 1.4vw;
+      font-weight: 300;
+      padding-top: 0;
+      margin-top: .5vh;
+   }
+   
+   .all-subscription {
+      padding-bottom: 20vh;
+   }
+   .subscription-content {
+      background-color: #202C62;
+      /* height: 55vh;   */
+      width: 25%;
+      margin: 5px 2vw 1vh 2vw;
+      
+   }
+   
+   .subscription-time {
+      background-color: var(--colorRed);
+      width: 55%;
+      height: 4vh;
+      align-items: center;
+      border-radius: 0 0 15rem 0;
+      box-shadow: .1vw .1vh 8px rgba(255, 255, 255, 0.2) ;
+      padding-left: 15px;
+      /* padding: .5vh .5vw; */
+   }
+   .subscription-price {
+      /* background-color: #0C0B0B; */
+      margin: 5px 4.5vw 1vh 4.5vw;
+   }
+   .subscription-price>h6{
+      font-size:xx-large;
+      font-weight: 600;
+      /* background-color: #0E0D0D; */
+      margin: 20px;
+   }
+   .subscription-price>span{
+      font-size:x-large;
+      font-weight: 700;
+   }
+   .subscription-info {
+      background-color: #1310103b;
+      margin: 5px 20px;
+      border-radius: 5px 5px 45px 5px;
+   }
+   .subscription-info>ul{
+      list-style: none;
+      padding: 15px 0;
+   }
+   .subscription-info>ul>li{
+      padding: 15px 0;
+      /* font-size:large; */
+   }
+
+   .content-btn {
+      margin: 25px;
+   }
 }
 
 @media screen and (min-width: 576px) {
