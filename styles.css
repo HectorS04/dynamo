@@ -584,6 +584,58 @@ ul.info-compatible__list>li>i {
 
 
 
+/*** Compatibility Recommended ***/
+
+.compatibility__recommended {
+   min-height: 75vh;
+   background-color: var(--colorBlack03);
+   color: var(--colorBlack01);
+   padding: 1rem .8rem;
+   /* padding: 2vh 0 2vh 1.5vw; */
+}
+
+.compatibility-desciption {
+   background-color: var(--colorWithe);
+   border-radius: 1.3rem;
+   padding: 1rem 2.5vw;
+   flex-grow: 1;
+}
+
+.compatibility-desciption i.fa-check-circle{
+   font-size: 1.6rem;
+}
+
+.compatibility-desciption ul{
+   margin-left: .5rem;
+   padding: 0;
+   justify-content: space-around;
+}
+.compatibility-desciption ul li{
+   padding: 0 .9rem .8rem 0;
+   font-size: 1rem;
+   /* padding: 0 85px 15px 5px; */
+   /* font-size: large; */
+}
+.compatibility-desciption ul li>i.fa-circle {
+   color: var(--colorRed);
+   font-size: .7rem;
+   padding-right: .4rem;
+}
+
+.compa_recome-title {
+   margin: 0;
+   padding-left: .5rem;
+   font-size: 1.4rem;
+}
+
+.compa_recome-subtitle {
+   margin: .5rem .3rem;
+   font-size: 1rem;
+}
+.compa_content-img {
+   display: none;
+}
+
 
 /*** Footer ***/
 .footer-info {
@@ -895,6 +947,67 @@ ul.info-compatible__list>li>i {
 
 
 
+
+   /*** Compatibility Recommended ***/
+   .compatibility__recommended {
+      min-height: 100vh;
+
+      padding: 8rem 2rem;
+   }
+
+   .compatibility-desciption {
+      padding: 1.8rem 0 0 1.8rem;
+      /* position: relative; */
+      flex-grow: .4;
+      /* align-items: center; */
+      z-index: 100;
+   }
+
+   .compatibility-desciption i.fa-check-circle{
+      font-size: 1.8rem;
+   }
+
+   .compatibility-desciption ul{
+      margin-left: 2.5rem;
+      justify-content: flex-start;
+   }
+   .compatibility-desciption ul li{
+      padding: 0 4rem 1rem 0;
+      font-size: 1.05rem;
+   }
+   .compatibility-desciption ul li>i.fa-circle {
+      font-size: .7rem;
+   }
+
+   .compa_recome-title {
+      font-size: 1.5rem;
+   }
+
+   .compa_recome-subtitle {
+      margin: .5rem 1rem;
+      font-size: 1.2rem;
+   }
+   .compa_content-img {
+      flex-grow: 1;
+      position: absolute;
+      height: 32rem;
+      width: 60%;
+      right: 0;
+      z-index: 0;
+      display: initial;
+      background: url('./img/img4.jpg') left top/cover no-repeat;
+      border-radius: 1rem 0 0 1rem;
+   }
+   .ground {
+      background-color: rgba(0, 0, 0, 0.452);
+      height: 100%;
+      border-radius: 1rem 0 0 1rem;
+      z-index: 10;
+   }
+
+
+
+
    /*** Footer ***/
    .footer-info {
       padding: 4vh 4vw;
@@ -1127,6 +1240,39 @@ ul.info-compatible__list>li>i {
 
 
 
+   /*** Compatibility Recommended ***/
+   .compatibility__recommended {
+      padding: 8rem 3rem;
+   }
+
+   .compatibility-desciption {
+      padding: 1.8rem;
+      flex-grow: .15;
+   }
+
+   .compatibility-desciption i.fa-check-circle{
+      font-size: 1.9rem;
+   }
+
+   .compatibility-desciption ul{
+      margin-left: 2.7rem;
+   }
+
+   .compa_recome-title {
+      font-size: 1.6rem;
+   }
+
+   .compa_recome-subtitle {
+      margin: .6rem 1.3rem;
+      font-size: 1.25rem;
+   }
+   .compa_content-img {
+      height: 34rem;
+      /* width: 60%; */
+   }
+
+
+
    /*** Footer ***/
    .footer-info {
       /* background-color:darkcyan; */
@@ -1272,6 +1418,40 @@ ul.info-compatible__list>li>i {
       font-size: 1.1rem;
    }
 
+
+   /*** Compatibility Recommended ***/
+   .compatibility__recommended {
+      padding: 6rem 3rem;
+   }
+
+   .compatibility-desciption {
+      flex-grow: .2;
+   }
+
+   .compatibility-desciption i.fa-check-circle{
+      font-size: 2rem;
+   }
+
+   .compatibility-desciption ul{
+      margin-left: 2.8rem;
+   }
+
+   .compatibility-desciption ul li{
+      font-size: 1.1rem;
+   }
+
+   .compa_recome-title {
+      font-size: 1.8rem;
+   }
+
+   .compa_recome-subtitle {
+      margin: .6rem 1.4rem;
+      font-size: 1.35rem;
+   }
+   .compa_content-img {
+      height: 35rem;
+      /* width: 60%; */
+   }
 
 
    /*** Footer ***/
@@ -1450,6 +1630,35 @@ ul.info-compatible__list>li>i {
 
    .service-title {
       height: 2.8rem;
+   }
+
+
+
+   /*** Compatibility Recommended ***/
+   .compatibility__recommended {
+      padding: 6rem 7rem;
+   }
+
+   .compatibility-desciption {
+      flex-grow: .2;
+   }
+
+   .compatibility-desciption i.fa-check-circle{
+      font-size: 2.3rem;
+   }
+
+
+   .compatibility-desciption ul li{
+      font-size: 1.18rem;
+   }
+
+   .compa_recome-title {
+      font-size: 2rem;
+   }
+
+   .compa_content-img {
+      height: 37rem;
+      width: 65%;
    }
 
 
