@@ -328,6 +328,20 @@
          </div>
       </div>
    </footer>
+   <script>
+      const observer = new PerformanceObserver((list) => {
+  
+          for (const entry of list.getEntries()) {
+  
+              // Attribution entry including "containerSrc":"https://example.com"
+              console.log(JSON.stringify(entry.attribution));
+  
+          }
+  
+      });
+  
+      observer.observe({ entryTypes: ['longtask'] });
+  </script>
    <!-- <a href="https://www.freepik.es/fotos/personas">Foto de Personas creado por freepic.diller - www.freepik.es</a> -->
    <script src="main.js"></script>
 </body>
