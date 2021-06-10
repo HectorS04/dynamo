@@ -4,11 +4,12 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Dynamo TV</title>
+   <title>Dynamo TV | STREAMING MADE EASY!</title>
+   <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
    <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="normalize.css">
    <link rel="preconnect" href="https://fonts.gstatic.com">
    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="normalize.css">
    <script src="https://kit.fontawesome.com/f82550333a.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -17,20 +18,20 @@
    <header>
       <nav class="navbar" id="navbar">
          <div class="content d-flex aling-item-center">
-            <div class="logo">
-               <a href="#">Dynamo TV</a>
+            <div class="content__logo ">
+               <a class="d-flex aling-item-center" href="https://www.dynamotv.net/"><img class="logo" src="./img/logo.png" alt="logo" ></a>
             </div>
             
             <div class="menu d-flex" id="menu">
                <ul class="navbar-navpage d-flex">
-                  <li class="nav-item"><a class="nav-link active" href="#">HOME</a></li>
-                  <li class="nav-item"><a class="nav-link" href="http://">SHOP</a></li>
-                  <li class="nav-item"><a class="nav-link" href="http://">CLIENT AREA</a></li>
+                  <li class="nav-item"><a class="nav-link active" href="https://www.dynamotv.net/">HOME</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://dynamotv.net/billing/cart.php">SHOP</a></li>
+                  <li class="nav-item"><a class="nav-link" href="https://dynamotv.net/billing/clientarea.php">CLIENT AREA</a></li>
                </ul>
 
                <ul class="navbar-navuser d-flex">
-                  <li class="nav-item"><a class="nav-link" href="http://">LOGIN</a></li>
-                  <li class="nav-item"><a class="nav-link register btn" href="http://">REGISTER</a></li>
+                  <li class="nav-item"><a class="nav-link" href="http://167.114.145.118/billing/clientarea.php">LOGIN</a></li>
+                  <li class="nav-item"><a class="nav-link register btn" href="http://167.114.145.118/billing/register.php">REGISTER</a></li>
                </ul>
             </div>
             <div class="btn-menu" id="btn-menu">
@@ -43,17 +44,17 @@
    <main>
       <section class="carousel-content d-flex">
          <div class="carousel-control d-flex">
-            <i class="fas fa-chevron-left"></i>
-            <i class="fas fa-chevron-right"></i>
+            <i class="fas fa-chevron-left" id="previous"></i>
+            <i class="fas fa-chevron-right" id="next"></i>
          </div>
          <div class="carousel-indicators d-flex">
-            <i class="fas fa-circle"></i>
-            <i class="fas fa-circle active"></i>
-            <i class="fas fa-circle"></i>
+            <i class="fas fa-circle" id="i-0"></i>
+            <i class="fas fa-circle active" id="i-1"></i>
+            <i class="fas fa-circle" id="i-2"></i>
          </div>
-         <div class="carousel-info ">
+         <div class="carousel-info " id="carousel-info">
             <h1 class="carousel-title">Welcome<br>To <span class="t-red">Dynamo TV</span></h1>
-            <p class="carousel-text">We Offer The Best Streaming Service With A Wide Variety Of Live TV And Events From Around The World. The Service Is Available On Various Platforms And Devices. Have A Look Aroun To Find The Best Package For You. Enjoy!</p>
+            <p class="carousel-text" >We Offer The Best Streaming Service With A Wide Variety Of Live TV And Events From Around The World. The Service Is Available On Various Platforms And Devices. Have A Look Aroun To Find The Best Package For You. Enjoy!</p>
             <a class="btn btn-p" href="#" >Click Here</a>
          </div>
       </section>
@@ -230,7 +231,6 @@
             </div>
          </div>
       </section>
-   
 
       <section class="compatibility__recommended d-flex aling-item-center">
          <div class="compatibility-desciption">
