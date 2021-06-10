@@ -39,7 +39,7 @@ function slider() {
    if(count === 0){
       count++;
       carouselInfo.innerHTML = `<h1 class="carousel-title"><sapn class="t-red">Subscription</sapn><br>Package</h1>
-      <p class="carousel-text" >We Provide a quality streaming solution for you with fully stable streams and support. Order a <a href="#">FREE trial</a> today and see for yourself!</p>`;
+      <p class="carousel-text" >We Provide a quality streaming solution for you with fully stable streams and support. Order a <a class="t-red " href="#">FREE trial</a> today and see for yourself!</p>`;
       i1.classList.remove('active');
       i2.classList.add('active');
       // alert(count);
@@ -52,14 +52,6 @@ function slider() {
       i1.classList.add('active');
    }
    
-
-   // if(valor === "next"){
-   //    alert(valor);
-   // }else {
-   //    alert(valor);
-   // }
-
-
 }
 
 window.onscroll = function() {

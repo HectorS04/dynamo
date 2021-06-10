@@ -25,6 +25,8 @@
    --fontSize-p3: 1.1rem;
 
    --fontSize-list: 1.1rem;
+
+   --animate-topdown: topdown 1.5s;
 }
 html {
    scroll-behavior: smooth;
@@ -128,6 +130,19 @@ ul {
    color: var(--colorWithe);
 }
 
+/*** Animate ***/
+@keyframes topdown {
+   0%{
+      opacity: 0;
+      transform: translateY(-2rem);
+   }
+
+   100%{
+      opacity: 1;
+      transform: translateY(0rem);
+
+   }
+}
 
 /*** Header ***/
 .navbar {
@@ -216,12 +231,13 @@ ul {
    height: 100vh;
    width: 100%;
    align-items: center;
-   background-image: url("./img/slide1.jpg") ;
+   color: var(--colorWithe);
+   background: fixed url("./img/slide1.jpg") left top/cover no-repeat;
+   /* background-image: url("./img/slide1.jpg") ;
    background-position: left top;
    background-attachment: fixed;
    background-repeat: no-repeat;
-   background-size: cover;
-   color: var(--colorWithe);
+   background-size: cover; */
 }
 
 .carousel-content:before{ 
@@ -281,8 +297,11 @@ ul {
    margin: 0 8vw;
 }
 
+
+
 .carousel-title {
    font-size: 2.5rem;
+   animation: var(--animate-topdown);
 }
 
 .carousel-text {
@@ -291,6 +310,7 @@ ul {
    font-size: 1.2rem;
    font-weight: 400;
    text-align: justify;
+   animation: var(--animate-topdown);
 }
 
 .btn-p {
