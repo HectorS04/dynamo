@@ -221,7 +221,7 @@ ul {
 
 /*** Slider ***/
 .carousel-content {
-   min-height: 100vh;
+   height: 100vh;
    width: 100%;
    /* margin: 25rem 0; */
    align-items: center;
